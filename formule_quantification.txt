@@ -1,0 +1,1 @@
+indB * (qr*qv) + indV * qr + indR

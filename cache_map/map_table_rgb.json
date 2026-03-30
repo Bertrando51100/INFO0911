@@ -1,0 +1,358 @@
+{
+  "espace_label": "RGB",
+  "espace_key": "rgb",
+  "nb_descripteurs": 14,
+  "nb_distances": 5,
+  "rows": [
+    {
+      "descripteur": "couleur",
+      "distance": "chi2",
+      "map": 0.15925389595893022
+    },
+    {
+      "descripteur": "lbp_bloc",
+      "distance": "l1",
+      "map": 0.15564371477928643
+    },
+    {
+      "descripteur": "lbp_bloc",
+      "distance": "intersection",
+      "map": 0.15564371477928643
+    },
+    {
+      "descripteur": "couleur",
+      "distance": "l1",
+      "map": 0.15353468606551282
+    },
+    {
+      "descripteur": "couleur",
+      "distance": "intersection",
+      "map": 0.15353468606551282
+    },
+    {
+      "descripteur": "glcm",
+      "distance": "chi2",
+      "map": 0.15161124858948485
+    },
+    {
+      "descripteur": "glcm",
+      "distance": "l1",
+      "map": 0.14771837655121123
+    },
+    {
+      "descripteur": "glcm",
+      "distance": "intersection",
+      "map": 0.14770306239095407
+    },
+    {
+      "descripteur": "lbp_bloc",
+      "distance": "chi2",
+      "map": 0.14697956360316497
+    },
+    {
+      "descripteur": "image_indexee",
+      "distance": "l2",
+      "map": 0.14681459630499624
+    },
+    {
+      "descripteur": "image_indexee",
+      "distance": "l1",
+      "map": 0.1454447093987992
+    },
+    {
+      "descripteur": "lbp_bloc",
+      "distance": "cosinus",
+      "map": 0.14285004582770228
+    },
+    {
+      "descripteur": "image_indexee",
+      "distance": "chi2",
+      "map": 0.14090574633395683
+    },
+    {
+      "descripteur": "image_indexee",
+      "distance": "cosinus",
+      "map": 0.14085080769043493
+    },
+    {
+      "descripteur": "couleur",
+      "distance": "cosinus",
+      "map": 0.14026066287498679
+    },
+    {
+      "descripteur": "hist_bloc",
+      "distance": "l1",
+      "map": 0.13762309015166987
+    },
+    {
+      "descripteur": "hist_bloc",
+      "distance": "intersection",
+      "map": 0.13762309015166987
+    },
+    {
+      "descripteur": "lbp_bloc",
+      "distance": "l2",
+      "map": 0.13705276739675465
+    },
+    {
+      "descripteur": "hist_bloc",
+      "distance": "chi2",
+      "map": 0.13168428103382604
+    },
+    {
+      "descripteur": "ccd",
+      "distance": "l1",
+      "map": 0.12654676002385432
+    },
+    {
+      "descripteur": "ccd",
+      "distance": "intersection",
+      "map": 0.12654126367208782
+    },
+    {
+      "descripteur": "couleur",
+      "distance": "l2",
+      "map": 0.1240524878935495
+    },
+    {
+      "descripteur": "grad_bloc",
+      "distance": "l1",
+      "map": 0.12393803834051738
+    },
+    {
+      "descripteur": "ccd",
+      "distance": "l2",
+      "map": 0.12296076399366361
+    },
+    {
+      "descripteur": "grad_bloc",
+      "distance": "chi2",
+      "map": 0.12119549360605124
+    },
+    {
+      "descripteur": "glcm",
+      "distance": "l2",
+      "map": 0.11784820890268584
+    },
+    {
+      "descripteur": "ccd",
+      "distance": "chi2",
+      "map": 0.11736259843317544
+    },
+    {
+      "descripteur": "grad_bloc",
+      "distance": "intersection",
+      "map": 0.11707188181528337
+    },
+    {
+      "descripteur": "glcm",
+      "distance": "cosinus",
+      "map": 0.11706398728641887
+    },
+    {
+      "descripteur": "grad_bloc",
+      "distance": "cosinus",
+      "map": 0.11450110850209974
+    },
+    {
+      "descripteur": "lbp",
+      "distance": "l1",
+      "map": 0.1129567710061103
+    },
+    {
+      "descripteur": "ccd",
+      "distance": "cosinus",
+      "map": 0.11143210460254284
+    },
+    {
+      "descripteur": "hist_bloc",
+      "distance": "cosinus",
+      "map": 0.11035539484159404
+    },
+    {
+      "descripteur": "grad_bloc",
+      "distance": "l2",
+      "map": 0.1103322173603218
+    },
+    {
+      "descripteur": "lbp",
+      "distance": "l2",
+      "map": 0.10832223626044374
+    },
+    {
+      "descripteur": "hist_bloc",
+      "distance": "l2",
+      "map": 0.10799024510940752
+    },
+    {
+      "descripteur": "grad_mag",
+      "distance": "chi2",
+      "map": 0.10468502226950757
+    },
+    {
+      "descripteur": "indexe",
+      "distance": "l2",
+      "map": 0.1001692654443055
+    },
+    {
+      "descripteur": "grad_mag",
+      "distance": "cosinus",
+      "map": 0.09963806141799271
+    },
+    {
+      "descripteur": "grad_dir",
+      "distance": "chi2",
+      "map": 0.0982862398575117
+    },
+    {
+      "descripteur": "indexe",
+      "distance": "intersection",
+      "map": 0.09773519159272512
+    },
+    {
+      "descripteur": "indexe",
+      "distance": "l1",
+      "map": 0.09773473552830378
+    },
+    {
+      "descripteur": "grad_mag",
+      "distance": "l1",
+      "map": 0.09751385074711366
+    },
+    {
+      "descripteur": "grad_mag",
+      "distance": "intersection",
+      "map": 0.09751385074711366
+    },
+    {
+      "descripteur": "lbp",
+      "distance": "chi2",
+      "map": 0.09690070932617062
+    },
+    {
+      "descripteur": "grad_mag",
+      "distance": "l2",
+      "map": 0.09253825777663209
+    },
+    {
+      "descripteur": "grad_dir",
+      "distance": "cosinus",
+      "map": 0.09102586453890449
+    },
+    {
+      "descripteur": "grad_dir",
+      "distance": "intersection",
+      "map": 0.08841832851519178
+    },
+    {
+      "descripteur": "grad_dir",
+      "distance": "l1",
+      "map": 0.08841175609455687
+    },
+    {
+      "descripteur": "grad_dir",
+      "distance": "l2",
+      "map": 0.08774740190421033
+    },
+    {
+      "descripteur": "indexe",
+      "distance": "chi2",
+      "map": 0.08663348207739702
+    },
+    {
+      "descripteur": "entropie",
+      "distance": "cosinus",
+      "map": 0.08607735422904149
+    },
+    {
+      "descripteur": "indexe",
+      "distance": "cosinus",
+      "map": 0.08588287118403044
+    },
+    {
+      "descripteur": "entropie",
+      "distance": "chi2",
+      "map": 0.08120798739496245
+    },
+    {
+      "descripteur": "entropie",
+      "distance": "l2",
+      "map": 0.08110818761941749
+    },
+    {
+      "descripteur": "entropie",
+      "distance": "l1",
+      "map": 0.07832878979881872
+    },
+    {
+      "descripteur": "lbp",
+      "distance": "cosinus",
+      "map": 0.07807985699810871
+    },
+    {
+      "descripteur": "image_indexee",
+      "distance": "intersection",
+      "map": 0.07510118831218884
+    },
+    {
+      "descripteur": "csv",
+      "distance": "l1",
+      "map": 0.06918904148367294
+    },
+    {
+      "descripteur": "csv",
+      "distance": "l2",
+      "map": 0.06918904148367294
+    },
+    {
+      "descripteur": "csv",
+      "distance": "cosinus",
+      "map": 0.06918904148367294
+    },
+    {
+      "descripteur": "csv",
+      "distance": "chi2",
+      "map": 0.06918904148367294
+    },
+    {
+      "descripteur": "csv",
+      "distance": "intersection",
+      "map": 0.06918904148367294
+    },
+    {
+      "descripteur": "entropie",
+      "distance": "intersection",
+      "map": 0.06637862028324348
+    },
+    {
+      "descripteur": "dcd",
+      "distance": "l1",
+      "map": 0.06612892229803388
+    },
+    {
+      "descripteur": "dcd",
+      "distance": "l2",
+      "map": 0.059651286380617397
+    },
+    {
+      "descripteur": "dcd",
+      "distance": "chi2",
+      "map": 0.059530928123742166
+    },
+    {
+      "descripteur": "dcd",
+      "distance": "cosinus",
+      "map": 0.058946958856809326
+    },
+    {
+      "descripteur": "lbp",
+      "distance": "intersection",
+      "map": 0.05543552391201272
+    },
+    {
+      "descripteur": "dcd",
+      "distance": "intersection",
+      "map": 0.05490616827039117
+    }
+  ]
+}
