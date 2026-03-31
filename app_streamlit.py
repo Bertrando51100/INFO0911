@@ -104,8 +104,7 @@ page = st.sidebar.radio(
         "Accueil",
         "Traitement d'image",
         "Moteur de recherche",
-        "Binarisation",
-        "Détection d'objet"
+        "Binarisation"
     )
 )
 
@@ -173,7 +172,6 @@ if page == "Accueil":
     - Visualiser et traiter des images
     - Tester différentes méthodes de binarisation
     - Rechercher des images dans la base
-    - Expérimenter la détection d'objets
     """)
     st.image("https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80", use_column_width=True)
     if image_path:
@@ -1208,11 +1206,3 @@ elif page == "Binarisation":
                     st.image(image_colorisee, use_column_width=True)
                 with st.expander("Informations"):
                     st.write(info)
-
-elif page == "Détection d'objet":
-    st.title("Détection d'objet")
-    if image_path:
-        st.subheader("Image sélectionnée :")
-        st.code(image_path)
-        st.image(Image.open(image_path), use_column_width=True)
-    st.info("À implémenter : détection de contours, objets, etc.")
